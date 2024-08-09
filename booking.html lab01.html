@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Page</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Booking Page</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">About Us</a></li>
+                <li><a href="booking.html">Booking Rates</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Book a Service</h2>
+            <img src="../images/dog.png" alt="Dog Icon" style="width:100px; display:block; margin-bottom:20px;">
+            <form id="bookingForm">
+                <label for="bookingDay">Select a day:</label>
+                <select id="bookingDay">
+                    <option value="">Select...</option>
+                    <option value="Monday">Monday</option>
+                    <option value="Tuesday">Tuesday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thursday</option>
+                    <option value="Friday">Friday</option>
+                </select>
+                <br>
+                <label for="bookingRate">Select a rate:</label>
+                <select id="bookingRate">
+                    <option value="">Select...</option>
+                    <option value="Half Day">Half Day</option>
+                    <option value="Full Day">Full Day</option>
+                </select>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Delilah's Doggy Daycare. All rights reserved.</p>
+    </footer>
+    <script src="../scripts/booking.js"></script>
+</body>
+</html>
